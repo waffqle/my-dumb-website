@@ -1,19 +1,30 @@
-body{
-    padding-top     : 0em;
-    padding-bottom  : 1em;
-    padding-left    : 10%;
-    padding-right   : 10%;
-    
+body {
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+
     background-color: lightgray;
+
+    font-family: serif;
     
-    font-family     : serif;
 }
 
-h1:first-of-type{
+h1:first-of-type {
     text-transform: capitalize;
 }
 
-.copyright{
-    font-size: small;
+div:last-of-type{
+    display: flex;
+}
+
+.copyright {
+    font-size  : small;
     font-family: serif;
+    flex       : 1; /* You were expecting a float. Weren't you? It's ok. I'm fine. */    
+}
+
+.contactme {
+    font-size  : small;
+    font-family: serif;    
 }
