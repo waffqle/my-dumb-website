@@ -1,0 +1,19 @@
+body{
+    padding-top     : 0em;
+    padding-bottom  : 1em;
+    padding-left    : 10%;
+    padding-right   : 10%;
+    
+    background-color: lightgray;
+    
+    font-family     : serif;
+}
+
+h1:first-of-type{
+    text-transform: capitalize;
+}
+
+.copyright{
+    font-size: small;
+    font-family: serif;
+}
