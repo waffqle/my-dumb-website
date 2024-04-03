@@ -28,7 +28,7 @@ function addHRules() {
         rule.insertAdjacentElement("afterend", document.createElement("hr"));
     })
 
-    // Don't forget to remove the extraneous tags!
+    // Don't forget to remove the obsolete tags!
     hrs.forEach(function (hr) {
         hr.remove();
     })

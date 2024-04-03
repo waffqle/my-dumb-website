@@ -2,13 +2,13 @@
   Work from the top down!
 */
 h1:first-of-type {
-    text-transform: capitalize;
-    flex:1;
-  }
+  text-transform: capitalize;
+  flex: 1;
+}
 
 body {
   padding-top: 0em;
-  padding-bottom: 0em;
+  padding-bottom: 1em;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -17,11 +17,9 @@ body {
   font-family: serif;
 }
 
-
-
-
-.flexy{
+.flexy {
   display: flex;
+  align-items: baseline;
 }
 
 .copyright {
@@ -35,7 +33,13 @@ body {
   font-family: serif;
 }
 
-#surprise {
-  height: 4em;
-  width: 100%;
+#neko {
+  width: 5%;
+  min-width: max-content; /* Don't let kitty get TOO squished! */
+  height: auto;
+  image-rendering: pixelated; /* Keep kitty looking sharp. */
+  margin-top: 2em;
+  margin-right: 0%;
+  margin-left: auto;
+  display: block;
 }
